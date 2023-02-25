@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario OpenBootcamp</title>
+</head>
+<body>
+    <div>
+        <h2>Login</h2>
+        <form action="/" id="forma" name="forma" method="POST">
+            <div class="elemento">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required="true">
+            </div>
+            <div class="elemento">
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" nombre="edad" required="true">
+            </div><br/>
+            <div class="elemento">
+                <label for="comentario">Frase-favorita: </label>
+                <textarea name="comentario" id="comentario" cols="30" rows="2"></textarea>
+            </div>
+        </form>
+        <input style="cursor: pointer;" type="submit" value="Enviar"/>
+        <input style="cursor: pointer;" type="reset" value="Borrar"/>
+    </div>
+</body>
+</html>
