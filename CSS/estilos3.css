@@ -1,0 +1,15 @@
+table, th, td{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    background: rgb(208, 117, 216) ;
+}
+th{
+    background: crimson;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 5px;
+}
